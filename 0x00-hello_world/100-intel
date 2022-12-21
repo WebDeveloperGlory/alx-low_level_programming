@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * Generates the assembly code for a C file and saves it to a file with the same name but with a .s extension.
+ *
+ * @return 0 on success, 1 on error.
+ */
+int main(void)
+{
+  char asm_file[1024];
+
+  sprintf(asm_file, "%s.s", "$CFILE");
+
+  int result = system("gcc -S -o %s %s", asm_file, "$CFILE");
+  if (result != 0)
+  {
+    printf("Error generating assembly code.\n");
+    return (1);
+  }
+
+  printf("Assembly code saved to %s\n", asm_file);
+  return (0);
+}
+
