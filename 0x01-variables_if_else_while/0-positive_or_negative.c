@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - assign random inst and print if positive or not
- * @n: interger
+ *
  * Return: Always 0
  */
 int main(void)
