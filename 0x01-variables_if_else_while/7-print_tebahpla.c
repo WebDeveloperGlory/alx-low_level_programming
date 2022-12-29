@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *  * main - prints string of information
- *   *
- *    * Return: always 0
- *     */
+ * main - prints string of information
+ *
+ * Return: always 0
+ */
 int main(void)
 {
 	char l;
