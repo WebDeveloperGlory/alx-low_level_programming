@@ -1,4 +1,4 @@
-#incluse "main.h"
+#include "main.h"
 /**
  * jack_bauer - prints every minuite
  */
