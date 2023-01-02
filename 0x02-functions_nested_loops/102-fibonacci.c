@@ -53,7 +53,9 @@ int fibonacci(int n)
 
 int main(void)
 {
-	for (int i = 1; i <= 50; i++)
+	int i;
+
+	for (i = 1; i <= 50; i++)
 	{
 		printf("%d, ", fibonacci(i));
 	}
