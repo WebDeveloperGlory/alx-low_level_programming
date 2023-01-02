@@ -11,15 +11,14 @@ int fibonacci_sum(int max_value)
 {
 	int a = 1, b = 2;
 	int sum = 0;
+	int c;
 
 	while (b <= max_value)
 	{
 		if (b % 2 == 0)
 		{
 			sum += b;
-		}  
-		int c;
-		
+		}
 		c = a + b;
 		a = b;
 		b = c;
