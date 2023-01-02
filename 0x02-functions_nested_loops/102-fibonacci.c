@@ -15,7 +15,10 @@ int main(void)
 	for (i = 3; i <= 50; i++)
 	{
 		tmp = a + b;
-		printf("%d, ", tmp);
+		printf("%d", tmp);
+		if (i = 50)
+			break;
+		printf(", ");
 		a = b;
 		b = tmp;
 	}
