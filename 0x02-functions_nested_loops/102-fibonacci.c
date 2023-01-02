@@ -16,7 +16,7 @@ int main(void)
 	{
 		tmp = a + b;
 		printf("%d", tmp);
-		if (i = 50)
+		if (i == 50)
 			break;
 		printf(", ");
 		a = b;
