@@ -20,4 +20,5 @@ int main(void)
 		b = tmp;
 	}
 	printf("\n");
+	return (0);
 }
