@@ -18,8 +18,9 @@ int fibonacci_sum(int max_value)
 		{
 			sum += b;
 		}  
-		int c = a + b;
-
+		int c;
+		
+		c = a + b;
 		a = b;
 		b = c;
 	}
