@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * _isalpha - checksfor alphabet
- * @c - interger
+ * @c: interger
  * Return: 1 if alpha, 0 otherwise
  */
 int _isalpha(int c)
