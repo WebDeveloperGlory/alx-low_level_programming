@@ -24,6 +24,7 @@ void print_times_table(int n)
 					_putchar('0' + (rst / 100));
 					_putchar('0' + (rst / 10));
 					_putchar('0' + (rst % 10));
+				}
 				else
 				{
 					_putchar('0' + (rst / 10));
