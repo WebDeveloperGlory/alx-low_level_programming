@@ -4,7 +4,6 @@
  * 
  * Return: always 0
  */
-/*
 int main(void)
 {
 	int a, b, i;
@@ -23,41 +22,6 @@ int main(void)
 		printf(", ");
 		a = b;
 		b = tmp;
-	}
-	printf("\n");
-	return (0);
-}
-*/
-#include <stdio.h>
-/**
- * fibonacci - does something
- * main - prints fibonacci numbers
- * @n: no of ints
- * Return: always 0
- */ 
-int fibonacci(int n)
-{
-	if (n == 1)
-	{
-		return (1);
-	}
-	else if (n == 2)
-	{
-		return (2);
-	}
-	else
-	{
-		return (fibonacci(n-1) + fibonacci(n-2));
-	}
-}
-
-int main(void)
-{
-	int i;
-
-	for (i = 1; i <= 50; i++)
-	{
-		printf("%d, ", fibonacci(i));
 	}
 	printf("\n");
 	return (0);
