@@ -18,7 +18,7 @@ void times_table(void)
 				_putchar(' ');
 			else
 				_putchar((rst / 10) + '0');
-			
+
 			_putchar((rst % 10) + '0');
 		}
 		_putchar('\n');
