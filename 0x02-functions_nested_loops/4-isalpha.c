@@ -1,14 +1,22 @@
 #include "main.h"
-#include <ctype.h>
+
 /**
- * _isalpha - checksfor alphabet
- * @c: interger
- * Return: 1 if alpha, 0 otherwise
+ * _isalpha - Shows 1 if the input is a
+ * letter Another cases, shows 0
+ *
+ * @c: The character in ASCII code
+ *
+ * Return: 1 for letters. 0 for the rest.
  */
 int _isalpha(int c)
 {
-	if (isalpha(c))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	{
 		return (1);
-
-	return (0);
+	}
+	else
+	{
+		return (0);
+	}
+	_putchar('\n');
 }

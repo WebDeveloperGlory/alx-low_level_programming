@@ -1,22 +1,32 @@
 #include "main.h"
+
 /**
- * jack_bauer - prints every minuite
+ * jack_bauer - Prints the minutes of a day
+ *
+ * Return: no return
  */
 void jack_bauer(void)
 {
-	int mins, hrs;
+	int a, b, c, d;
 
-	for (hrs = 0; hrs < 24; hrs++)
+	for (a = 48; a <= 50; a++)
 	{
-		for (mins = 0; mins < 60; mins++)
+		for (b = 48; b <= 57; b++)
 		{
-			_putchar('0' + hrs / 10);
-			_putchar('0' + hrs % 10);
-			_putchar(':');
-			_putchar('0' + mins / 10);
-			_putchar('0' + mins % 10);
-			if ((hrs != 23) && (mins != 59))
-				_putchar('\n');
+			for (c = 48; c <= 53; c++)
+			{
+				for (d = 48; d <= 57; d++)
+				{
+					if (a >= 50 && b >= 52)
+						break;
+					_putchar(a);
+					_putchar(b);
+					_putchar(58);
+					_putchar(c);
+					_putchar(d);
+					_putchar('\n');
+				}
+			}
 		}
 	}
 }
